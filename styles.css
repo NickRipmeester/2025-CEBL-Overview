@@ -2,6 +2,8 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: auto;
     text-align: center;
+    background-color: rgb(240, 240, 240);
+    color: rgb(18, 18, 18);
 }
 
 
@@ -13,7 +15,7 @@ body {
 
 }
 .card {
-    max-width: 900px;
+    max-width: 1000px;
     min-width:300px;
     margin: auto;
     padding: 25px 5% 25px 5%;
@@ -21,17 +23,18 @@ body {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 4em;
 }
+
 h2 {
-    font-size: 2.75rem;
+    font-size: 3rem;
 }
  
 .cover {
     background-image: url();
-    background-color: black;
-    color: white;
-    height: 500px;
+    background-color: rgb(18, 18, 18);
+    color: rgb(240, 240, 240);
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,8 +48,8 @@ h2 {
 }
 
 .record {
-    background-color: black;
-    color: white;
+    background-color: rgb(18, 18, 18);
+    color: rgb(240, 240, 240);
     padding-top: 200px;
 }
 
@@ -57,20 +60,20 @@ h2 {
 }
 
 .rec {
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     display: flex;
     align-items: center;
     color:black;
-    flex-basis: 150px;
-    height: 150px;
-    border-radius: 10%;
-    padding: 5px;
+    flex-basis: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 15px;
     margin: 10px;
 }
 
-.canball {
-    background-color: black;
-    color: white;
+.canball, .cebl-nba {
+    background-color: rgb(18, 18, 18);
+    color: rgb(240, 240, 240);
     padding-top: 200px;
 }
 
@@ -84,10 +87,25 @@ h2 {
     color: white;
     display: flex;
     align-items: center;
-    
     flex-basis: 150px;
     height: 150px;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 50%;
+    padding: 15px;
     margin: 10px;
+}
+
+.talent-stat-con {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.talent-stat {
+    flex-basis: 150px;
+}
+
+.talent-stat h4 {
+    font-size: 2.5em;
+    margin: 0;
 }
