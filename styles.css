@@ -149,6 +149,17 @@ h2 {
     
 }
 
+.elite-talent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: cen;
+}
+
+.moon-image {
+    width: 45%;
+    margin: auto;
+}
+
 .canball-stat-con {
     display: flex;
     justify-content: center;
@@ -171,6 +182,7 @@ h2 {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: ;
 
 }
 
@@ -212,7 +224,7 @@ h2 {
 
 .slider {
     display: flex;
-    aspect-ratio: 16 / 12;
+    aspect-ratio: 16 / 10;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -255,3 +267,4 @@ h2 {
 .slider-nav a:active {
     opacity: 1;
 }
+
