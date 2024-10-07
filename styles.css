@@ -3,7 +3,7 @@ body {
     margin: auto;
     text-align: center;
     background-color: rgb(240, 240, 240);
-    color: rgb(18, 18, 18);
+    color: #121212;
 }
 
 
@@ -15,7 +15,7 @@ body {
 
 }
 .card {
-    max-width: 1000px;
+   
     min-width:300px;
     margin: auto;
     padding: 25px 5% 25px 5%;
@@ -23,7 +23,11 @@ body {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3.25em;
+}
+
+.text-shadow {
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 h2 {
@@ -31,8 +35,17 @@ h2 {
 }
  
 .cover {
-    background-image: url();
-    background-color: rgb(18, 18, 18);
+    background-image: url(./Content/Images/Cover-jwf-win.png) ;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: stretch;
+    background-attachment: fixed;
+    width: 100%;
+    
+
+    background-color: rgb(90, 90, 90);
     color: rgb(240, 240, 240);
     height: 700px;
     display: flex;
@@ -42,15 +55,45 @@ h2 {
 
 }
 
-.tsn-logo {
-    width: 55px;
-    margin: auto;
+.logolock {
+
+    width: 250px;
+    margin: 0;
+    margin-top: -25px;
+
+
 }
 
+.card, .cover {
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.6) 80%);
+    
+    width: 100%;
+}
+
+.tsn-logo {
+    width: 55px;
+    margin: 0 auto;
+}
+
+.teammap {
+    max-width: 500px;
+    margin: auto;
+}
 .record {
-    background-color: rgb(18, 18, 18);
+    background-color: rgb(92, 92, 92);
+    background-blend-mode: overlay;
     color: rgb(240, 240, 240);
     padding-top: 200px;
+    background-image: url(./Content/Images/saddledome.png);
+    
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: ;
+    
+    
+    
 }
 
 .rec-con {
@@ -71,10 +114,30 @@ h2 {
     margin: 10px;
 }
 
-.canball, .cebl-nba {
-    background-color: rgb(18, 18, 18);
+.canball{
+    background-image: url(./Content/Images/canball.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(92, 92, 92);
+    background-blend-mode: overlay;
+    padding-top: 150px;
     color: rgb(240, 240, 240);
-    padding-top: 200px;
+    
+}
+.cebl-nba {
+    color: rgb(240, 240, 240) ;
+    background-color: rgb(92, 92, 92);
+    background-blend-mode: overlay;
+    padding-top: 150px;
+    background-image: url(./Content/Images/cebl-nba.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    
+    
 }
 
 .canball-stat-con {
@@ -87,8 +150,8 @@ h2 {
     color: white;
     display: flex;
     align-items: center;
-    flex-basis: 150px;
-    height: 150px;
+    flex-basis: 200px;
+    height: 200px;
     border-radius: 50%;
     padding: 15px;
     margin: 10px;
@@ -108,4 +171,18 @@ h2 {
 .talent-stat h4 {
     font-size: 2.5em;
     margin: 0;
+}
+
+
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.button-con {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
 }
